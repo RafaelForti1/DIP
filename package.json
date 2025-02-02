@@ -4,13 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "react-scripts build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev"
-  },
+  "build": "react-scripts build",
+  "start": "react-scripts start",
+  "deploy": "vercel --prod"
+},
   "dependencies": {
     "@prisma/client": "^5.10.2",
     "@supabase/supabase-js": "^2.48.1",
